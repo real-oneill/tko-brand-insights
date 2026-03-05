@@ -2,8 +2,6 @@
 
 Competitive intelligence platform for a martial arts equipment brand, built as a Databricks App. Compares TKO Combat's performance against 5 competitors (Century Martial Arts, Everlast, Hayabusa, Venum, RDX Sports) across Amazon, Walmart, and Target using Nimble marketplace data.
 
-**Live App:** https://brand-analyzer-7405610364909999.19.azure.databricksapps.com
-
 ## Architecture
 
 ```
