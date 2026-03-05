@@ -1,0 +1,19 @@
+command:
+  - python
+  - -m
+  - uvicorn
+  - app:app
+  - --host
+  - 0.0.0.0
+  - --port
+  - "8000"
+
+env:
+  - name: WAREHOUSE_ID
+    value: d75e71068b3fa181
+
+resources:
+  - name: sql-warehouse
+    sql_warehouse:
+      id: d75e71068b3fa181
+      permission: CAN_USE
